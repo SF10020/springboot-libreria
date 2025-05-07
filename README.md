@@ -30,10 +30,10 @@ Relaciones:
 - docker-compose up -d
 
 Esto iniciará un contenedor con:
-Base de datos: dawcorto
-Usuario: postgres
-Contraseña: admin123
-Puerto: 5433
+- Base de datos: dawcorto
+- Usuario: postgres
+- Contraseña: admin123
+- Puerto: 5433
 
 ## 👾 Desde la terminal de VS usar comando
 - mvn spring-boot:run
