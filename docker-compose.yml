@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: dawcortodb
+    restart: always
+    environment:
+      POSTGRES_DB: dawcorto
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin123
+    ports:
+      - "5433:5432"
+    volumes:
+      - dawcorto_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  dawcorto_postgres_data:
