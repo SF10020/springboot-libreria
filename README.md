@@ -41,9 +41,9 @@ Puerto: 5433
 ## 🌐 Probar algunos endpoints
 Desde navegador:
 
-http://localhost:8081/api/libros
-http://localhost:8081/api/autores
-http://localhost:8081/api/clientes
+- http://localhost:8081/api/libros
+- http://localhost:8081/api/autores
+- http://localhost:8081/api/clientes
 
 
 ---------------------DIAGRAMA DE LA BASE DE DATOS CON SUS RELACIONES-----------------------
